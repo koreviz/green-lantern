@@ -1,0 +1,28 @@
+doctype html
+//- Kore Layout
+//- Copyright(c) 2013 Koreviz
+//- MIT Licensed
+html
+	//- head
+	block head
+		include include/_head
+
+	body
+		//- header
+		block header
+			include include/_header
+
+		//- main
+		block main
+			main(role='main')
+
+		//- footer
+		block footer
+			include include/_footer
+
+		//- script
+		script(src='/build.js')
+		
+		//- analytics
+		block analytics
+			include include/_analytics

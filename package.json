@@ -1,0 +1,16 @@
+{
+	"name": "green-lantern",
+	"description": "Green Lantern",
+	"version": "1.0.0",
+	"author": "Shawn Jonnet",
+	"dependencies": {
+		"pug": "2.x.x",
+		"pug-cli": "1.x.x",
+		"serve": "1.x.x",
+		"styl": "0.x.x",
+		"uglify-js": "3.x.x"
+	},
+	"engines": {
+		"node": ">= 0.6.0"
+	}
+}
